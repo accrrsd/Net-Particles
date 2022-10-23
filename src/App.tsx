@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './App.module.css'
 import { NetParticles } from './components/net-particles/net-particles'
 import { useState } from 'react'
