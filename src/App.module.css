@@ -1,0 +1,74 @@
+.App {
+  background-color: rgb(29, 29, 29);
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.menuWrapper {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+
+  display: flex;
+  flex-direction: column;
+  background-color: #603912;
+  border-radius: 20px;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+  background-color: #a77c4e;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.8);
+  gap: 5px;
+}
+.handler {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.submitBtn {
+  background-color: #a77c4e;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  align-self: center;
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.submitBtn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.inputField {
+  background-color: #a77c4e;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.inputField:focus {
+  outline: 1px solid yellow;
+}
