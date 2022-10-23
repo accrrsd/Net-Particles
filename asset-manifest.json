@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/net-particles/static/css/main.06ac7442.css",
-    "main.js": "/net-particles/static/js/main.a21ed680.js",
-    "index.html": "/net-particles/index.html",
-    "main.06ac7442.css.map": "/net-particles/static/css/main.06ac7442.css.map",
-    "main.a21ed680.js.map": "/net-particles/static/js/main.a21ed680.js.map"
+    "main.css": "/Net-Particles/static/css/main.06ac7442.css",
+    "main.js": "/Net-Particles/static/js/main.a21ed680.js",
+    "index.html": "/Net-Particles/index.html",
+    "main.06ac7442.css.map": "/Net-Particles/static/css/main.06ac7442.css.map",
+    "main.a21ed680.js.map": "/Net-Particles/static/js/main.a21ed680.js.map"
   },
   "entrypoints": [
     "static/css/main.06ac7442.css",
