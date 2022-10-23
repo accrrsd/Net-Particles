@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Net-Particles/static/css/main.06ac7442.css",
+    "main.js": "/Net-Particles/static/js/main.a21ed680.js",
+    "index.html": "/Net-Particles/index.html",
+    "main.06ac7442.css.map": "/Net-Particles/static/css/main.06ac7442.css.map",
+    "main.a21ed680.js.map": "/Net-Particles/static/js/main.a21ed680.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06ac7442.css",
+    "static/js/main.a21ed680.js"
+  ]
+}
