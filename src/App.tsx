@@ -34,12 +34,12 @@ function App() {
             </li>
             {/* life */}
             <li className={style.handler}>
-              <span className={style.label}>Время жизни (по 100)</span>
+              <span className={style.label}>Время жизни (по 100) Если 0 - бессмертные клетки</span>
               <input className={style.inputField} type="number" defaultValue={200} step={100} {...register('lifeTime', { valueAsNumber: true })} />
             </li>
             <li className={style.handler}>
               <span className={style.label}>Минимальная прозрачность (если 1 отключает изменение прозрачности со временем)</span>
-              <input className={style.inputField} type="number" step={0.1} defaultValue={0.3} {...register('minOpacity', { valueAsNumber: true })} />
+              <input className={style.inputField} type="number" step={0.1} defaultValue={0.5} {...register('minOpacity', { valueAsNumber: true })} />
             </li>
             <li className={style.handler}>
               <span className={style.label}>Минимальный размер от срока жизни (точка уменьшается со временем)</span>

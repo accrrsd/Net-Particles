@@ -44,7 +44,7 @@ export const NetParticles = ({
 
   //Life settings
   lifeTime = 200,
-  minOpacity = 0.3,
+  minOpacity = 0.5,
   minSizeByLife = 5,
 
   // Lines
@@ -134,8 +134,8 @@ export const NetParticles = ({
           this.dirX = Math.random() * maxSpeed
           this.dirY = Math.random() * maxSpeed
           this.size = maxSize === minSize || minSize === 0 ? maxSize : Math.floor(Math.random() * (maxSize - minSize + 1) + minSize)
-          this.life = Math.floor(Math.random() * lifeTime)
-          this.opacity = minOpacity !== 0 ? this.calculateOpacity() : 1
+          this.life = lifeTime === 0 ? lifeTime : Math.floor(Math.random() * lifeTime)
+          this.opacity = minOpacity !== 0 && lifeTime !== 0 ? this.calculateOpacity() : 1
         }
 
         private calculateOpacity() {
